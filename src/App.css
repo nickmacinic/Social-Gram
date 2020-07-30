@@ -2,14 +2,19 @@
   margin: 0;
 }
 
-.app{
+.app {
   background-color: #fafafa;
   height: 100vh;
 }
 
-.app__header{
+.app__header {
   background-color: white;
   padding: 20px;
   object-fit: contain;
   border-bottom: 1px solid lightgray;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
 }
